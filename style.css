@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body, html{
+	height: 100%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background: linear-gradient(#314755, #26a0da)
+}	
+.container{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}	
+.widget{
+	width: 400px;
+	height: 200px;
+	border-radius: 15px;
+	background-color: #fff;
+}
+.widget .left{
+	position: absolute;
+	left: 0;
+	width: 200px;
+}
+.widget .right{
+	position: absolute;
+	right: 0;
+	width: 200px;
+
+}
+.icon{
+	width: 50%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.weather-status{
+	font-size: 1em;
+	text-align: center;
+	margin-top: 0;
+}
+.widget .right .city{
+	font-size: 1.8em;
+	text-align: left;
+	margin: 0;
+	margin-top: 25px;
+	
+}
+.widget .right .degree{
+	font-size: 3em;
+	font-weight: bold;
+	text-align: left;
+	margin: 0;
+	
+}
+.widget .bottom{
+	font-size: 0.95em;
+	width: 100%;
+	position: absolute;
+	bottom: 10px;
+	display: flex;
+	justify-content: center;
+
+}
+.widget .bottom div{
+	margin: 5px 10px 5px 10px;
+	text-align: center;
+	line-height: 100%;
+}
+.bottom div span{
+	display: block;
+}
+.search-bar{
+	margin-top: 40px;
+	width: 25%;
+	border:none;
+	height: 10px;
+	border-radius: 10px;
+	background-color: white;
+  	background-position: 10px 10px;
+  	background-repeat: no-repeat; 	
+  	font-size: 16px;
+  	padding: 12px 20px 12px;
+}
+.search-container{
+	width: 100%;
+	text-align: center;
+}
+.search-button{
+	background-color: #cc2b5e;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 14px
+}
