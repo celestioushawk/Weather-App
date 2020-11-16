@@ -1,2 +1,2 @@
 # Weather-App
-This is a weather app I made using PHP and HTML/CSS.
+I wanted to start working with APIs so in this mini project I used the OpenWeatherMap API to fetch weather results of user specified location. I got to learn about about how APIs work, its various terminologies and how to extract specific information from the response JSON array. This is built with PHP for fetching the data from the server and the front-end is built using HTML and CSS. Thank You.
