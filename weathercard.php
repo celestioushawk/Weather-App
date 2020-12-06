@@ -2,7 +2,7 @@
 if(isset($_POST["submit-button"]))
 {
 	$place = $_POST['location'];
-	$weather_url = 'http://api.openweathermap.org/data/2.5/weather?q=' . $place . '&appid=94b1dbee2a96ebd703b0b69c039837d0&units=metric';
+	$weather_url = 'http://api.openweathermap.org/data/2.5/weather?q=' . $place . '&appid=// api key here //&units=metric';
 	$data = file_get_contents($weather_url);
 	$weather_array = json_decode($data, true);
 	//print_r($weather_array);
